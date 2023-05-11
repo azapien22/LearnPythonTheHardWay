@@ -2,7 +2,7 @@
 
 # This one is like your scripts with argv
 
-def print_two(*args):
+def print_two(*args):# the * tells python to take all argumentsto the function in args as a list
     
     arg1, arg2 = args
     
