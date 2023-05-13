@@ -15,8 +15,7 @@ def rewind(f): # 3: Correct argument
     f.seek(0)
     
 def print_a_line(line_count, f): # 3: Correct argument
-    print(line_count, f.readline())
-
+    print(line_count, f.readline()) # '\n' a new line is inherent in the readline() method
 current_file = open(input_file)
 
 print("First let's print the whole file:\n")
