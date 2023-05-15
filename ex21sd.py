@@ -121,3 +121,21 @@ result = subtract(
 # Print the result
 print("The result is: ", result)
 # the output: The result is:  19682999998954.0
+
+# Study Drill 4:
+# 24 + 34 / 100 - 1023
+
+def add(a,b):
+    return a + b
+
+def subtract(a,b):
+    return a - b
+
+def divide(a,b):
+    return a / b
+
+result = subtract(add(24,divide(34,100)), 1023)
+
+print(f"The result is {result}. ")
+print("The result is: ", result)
+
