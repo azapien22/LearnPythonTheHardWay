@@ -1,4 +1,4 @@
-"""print("How old are you?", end=' ')
+print("How old are you?", end=' ')
 age = input()
 print("How tall are you?", end=' ')
 height = input() 
@@ -21,7 +21,7 @@ file_again = input("> ")
 
 txt_again = open(file_again)
 
-print(txt_again.read())"""
+print(txt_again.read())
 
 
 print("Let's practice everything.")
