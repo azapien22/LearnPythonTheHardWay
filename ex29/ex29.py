@@ -26,3 +26,10 @@ if people <= dogs:
         
 if people == dogs:
     print("People are dogs.")    
+    
+# The following is the output:
+#Too many cats! The world is doomed!
+#The world is dry!
+#People are greater than or equal to dogs.
+#People are less than or equal to dogs.
+#People are dogs.
