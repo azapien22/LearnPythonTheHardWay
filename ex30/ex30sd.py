@@ -119,3 +119,6 @@ if not x > y:
     print("Expression 3 is True")
 else:
     print("Expression 3 is False")
+    
+# This script demonstrates more complex boolean expressions using the and, or, and not operators, and also shows how parentheses can
+# be used to control the order of operations. Remember, by default, Python follows the order of operations: not, and, then or.
