@@ -5,7 +5,7 @@ cars = 40
 trucks = 15
 
 if cars > people:
-    print("we Should take the cars.")
+    print("We Should take the cars.")
 
 elif cars < people:
     print("We should not take the cars.")
@@ -23,7 +23,12 @@ else:
     print("We still can't decide.")
     
 if people > trucks:
-    print("ALright, Let's just take the trucks.")
+    print("Alright, Let's just take the trucks.")
 
 else: 
     print("Fine, Let's stay home then.")
+    
+# The output is the following:
+# We Should take the cars.
+# Maybe we could take the trucks.
+# Alright, Let's just take the trucks.
