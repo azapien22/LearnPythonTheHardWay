@@ -39,3 +39,14 @@ elif door == "2":
         
 else:
     print("You stumble around and fall on a knife and die. Good job!")
+    
+# The following is the output:
+# python3 ex31.py
+# You enter a dark room with two doors. Do you go through door #1 or door #2
+# > 1
+# There's a giant bear here eating a cheese cake.
+# What do you do?
+# 1. Take the cake.
+# 2. Scream at the bear.
+# > 2
+# The bear eats your legs off. Good Job!
