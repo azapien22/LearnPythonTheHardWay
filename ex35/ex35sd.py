@@ -16,7 +16,7 @@ def gold_room():
     print("This room is full of gold. How much do you take?")
     
     choice = input("> ")
-    if choice.isdigit():     # Study Drill #5
+    if choice.isdigit(): # Check if the input is a valid number (consists of digits only)    # Study Drill #5
         how_much = int(choice)
     else:
         dead("Man, learn to type a number.")
