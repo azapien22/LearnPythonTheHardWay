@@ -126,3 +126,47 @@ def start():
         dead("The floor beneath you crumbles and fall into a spike pit.")
 
 start()
+
+# 5. The gold_room has a weird way of getting you to type a number.
+# What are all the bugs in this way of doing it? Can you make it better than what I've written?
+
+#The gold_room function in your code aims to manage user input to determine if they win or lose based on their choice of how much gold to take. 
+#However, there are several issues with the current implementation:
+
+#1.Limited Number Recognition: The function only recognizes numbers containing "0" or "1". This means inputs like "25" or "3" are not recognized as numbers, 
+#which is not intuitive. 
+#2.String in Number Check: The method of checking if the input is a number by looking for "0" or "1" is not robust. For example,
+#"a10" would pass as a number, which is incorrect. 
+#3. No Input Validation: There's no check for negative numbers or non-numeric characters mixed with numeric ones (e.g., "30a"). 
+#4. Lack of Flexibility: The function only allows for specific numbers, limiting the user's interaction.
+#5. Exit Strategy: The use of exit(0) terminates the entire program, which might not be desirable in a larger application context.
+#6. Error Handling: There is no handling for unexpected input types like a blank entry or special characters.
+#To improve the function, we can implement more robust input validation and error handling. Here's a revised version:
+
+"""def gold_room():
+    print("This room is full of gold. How much do you take?")
+    
+    while True:
+        choice = input("> ")
+        try:
+            how_much = int(choice)
+            if how_much < 0:
+                print("Please enter a positive number.")
+                continue
+
+            if how_much < 50:
+                print("Nice, you're not greedy, you win!")
+                break  # Replace exit(0) with break to just exit the loop, not the whole program
+            else:
+                dead("You greedy bastard.")
+                break  # Assuming 'dead' ends the function or does something similar
+
+        except ValueError:
+            print("That's not a number. Please enter a number.")
+
+gold_room()
+"""
+
+
+
+
